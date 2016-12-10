@@ -6,4 +6,26 @@
 
 
 
+int main() {
+
+  
+  
+  
+}//end main
+
+int drawingtrack(){
+  
+  
+  system("clear");
+	printf(" Welcome to CISC220 Racing Arena \n Hit Enter to move forward \n");
+  
+
+  
+  
+}//end drawingtrack
+
+int checkwinner(){
+  
+  
+}//end checkwinner
 
