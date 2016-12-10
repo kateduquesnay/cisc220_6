@@ -41,7 +41,7 @@ int drawingtrack() {
 int checkwinner(){
 	for(int i=0; i < 5; i++) { 
 		if (position[i] >= 40) {
-			return (i+1);
+			return (i);
 		}
 	}
 	return (0);
