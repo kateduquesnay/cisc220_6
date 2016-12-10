@@ -4,15 +4,19 @@
 //Adele McCallum 10093867
 //Dean Wilkins-Reeves 10176758
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <pthread.h>
+#include <string.h>
 
 int position[5] = {0, 0, 0, 0, 0};
 
 int main() {
-
-  
-  
-  
+	
 }//end main
+
+
 
 int drawingtrack() {
 	system("clear");
@@ -35,6 +39,11 @@ int drawingtrack() {
 }//end drawingtrack
 
 int checkwinner(){
-	
+	for(int i=0; i < 5; i++) { 
+		if (position[i] >= 40) {
+			return (i+1);
+		}
+	}
+	return (0);
 }//end checkwinner
 
